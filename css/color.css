@@ -15,7 +15,7 @@ main section{
 }
 /* Contenedor 1 */
 main section .principal:nth-child(1):nth-child(1):nth-child(1):nth-child(1){
-    width: 100%;
+    width: 80%;
     display: flex;
 }
 
@@ -65,14 +65,50 @@ main section .principal:nth-child(2) div figure{
 }
 
 main section .principal:nth-child(2) div:nth-child(1) figure img{
-    width: 100%;
+    width: 118%;
 }
 
 main section .principal:nth-child(2) div:nth-child(2) figure img{
-    width: 111%;
+    width: 105%;
 }
 
 main section .principal:nth-child(2) div:nth-child(3) figure img{
-    width: 97%;
+    width: 120%;
 }
 
+main section .principal:nth-child(3){
+    width: 100%;
+    display: flex;
+}
+
+
+main section .container:nth-child(3){
+    width: 100%;
+    display: flex;
+}
+
+main section .container:nth-child(3) div{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .container:nth-child(3) div h2{
+    font-size: 2.4em;
+    background-color: rgba(255,255,255,0.5);
+}
+
+main section .container:nth-child(3) div:nth-child(1){
+    background-image: url('httphttps://i2.wp.com/younoticias.com/wp-content/uploads/2021/04/Adele-vista-por-primera-vez-en-meses-en-la-fiesta.jpg?fit=1080%2C1080&ssl=1s://www.fundeu.es/wp-content/uploads/2011/01/hab%C3%ADan-muchas-personas.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section .container:nth-child(3) div:nth-child(2){
+    background-image: url('https://www.questionpro.com/blog/wp-content/https://www.soundpark.news/__export/1620240854244/sites/debate/img/2021/05/05/adele_cumpleaxos_33_crop1620240728600.jpg_242310155.jpg/2020/12/1569-768x512.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
